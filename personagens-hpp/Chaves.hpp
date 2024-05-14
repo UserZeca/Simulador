@@ -1,5 +1,5 @@
-#ifndef CHAVES
-#define CHAVES
+#ifndef CHAVES_HPP
+#define CHAVES_HPP
 #include "../core-simulador-hpp/Personagem.hpp"
 class Chaves : public Personagem
 {

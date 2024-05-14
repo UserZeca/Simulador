@@ -1,5 +1,5 @@
-#ifndef DESCOBRIDOR_DOS_SETE_MARES
-#define DESCOBRIDOR_DOS_SETE_MARES
+#ifndef DESCOBRIDOR_DOS_SETE_MARES_HPP
+#define DESCOBRIDOR_DOS_SETE_MARES_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../../core-simulador-hpp/ArmaDefesa.hpp"

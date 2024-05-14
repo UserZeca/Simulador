@@ -1,5 +1,5 @@
-#ifndef DEMOMAN
-#define DEMOMAN
+#ifndef DEMOMAN_HPP
+#define DEMOMAN_HPP
 #include "../core-simulador-hpp/Personagem.hpp"
 class Demoman : public Personagem
 {

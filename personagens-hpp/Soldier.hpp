@@ -1,5 +1,5 @@
-#ifndef SOLDIER
-#define SOLDIER
+#ifndef SOLDIER_HPP
+#define SOLDIER_HPP
 #include "../core-simulador-hpp/Personagem.hpp"
 class Soldier : public Personagem
 {

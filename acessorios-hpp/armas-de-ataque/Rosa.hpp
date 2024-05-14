@@ -1,5 +1,5 @@
-#ifndef ROSA
-#define ROSA
+#ifndef ROSA_HPP
+#define ROSA_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 class Rosa : public ArmaAtaque

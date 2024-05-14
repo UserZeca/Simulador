@@ -1,5 +1,5 @@
-#ifndef LANCARCO_IRIS
-#define LANCARCO_IRIS
+#ifndef LANCARCO_IRIS_HPP
+#define LANCARCO_IRIS_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 class LancarcoIris : public ArmaAtaque

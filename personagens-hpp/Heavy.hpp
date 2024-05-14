@@ -1,5 +1,5 @@
-#ifndef HEAVY
-#define HEAVY
+#ifndef HEAVY_HPP
+#define HEAVY_HPP
 #include "../core-simulador-hpp/Personagem.hpp"
 class Heavy : public Personagem
 {

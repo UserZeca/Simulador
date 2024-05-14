@@ -1,5 +1,5 @@
-#ifndef BARRA_DE_DALOKOHS
-#define BARRA_DE_DALOKOHS
+#ifndef BARRA_DE_DALOKOHS_HPP
+#define BARRA_DE_DALOKOHS_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../../core-simulador-hpp/ArmaDefesa.hpp"

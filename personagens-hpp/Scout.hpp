@@ -1,5 +1,5 @@
-#ifndef SCOUT
-#define SCOUT
+#ifndef SCOUT_HPP
+#define SCOUT_HPP
 #include "../core-simulador-hpp/Personagem.hpp"
 class Scout : public Personagem
 {

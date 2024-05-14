@@ -1,5 +1,5 @@
-#ifndef TARJA_DE_INVESTIDA
-#define TARJA_DE_INVESTIDA
+#ifndef TARJA_DE_INVESTIDA_HPP
+#define TARJA_DE_INVESTIDA_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../../core-simulador-hpp/ArmaDefesa.hpp"

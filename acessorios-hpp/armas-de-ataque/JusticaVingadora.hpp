@@ -1,5 +1,5 @@
-#ifndef JUSTICA_VINGADORA
-#define JUSTICA_VINGADORA
+#ifndef JUSTICA_VINGADORA_HPP
+#define JUSTICA_VINGADORA_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 class JusticaVingadora : public ArmaAtaque

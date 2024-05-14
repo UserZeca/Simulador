@@ -1,5 +1,5 @@
-#ifndef ESCUDO
-#define ESCUDO
+#ifndef ESCUDO_HPP
+#define ESCUDO_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../../core-simulador-hpp/ArmaDefesa.hpp"

@@ -1,5 +1,5 @@
-#ifndef SANDVICHE
-#define SANDVICHE
+#ifndef SANDVICHE_HPP
+#define SANDVICHE_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../../core-simulador-hpp/ArmaDefesa.hpp"

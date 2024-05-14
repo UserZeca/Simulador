@@ -1,5 +1,5 @@
-#ifndef REFRISPINGARDA
-#define REFRISPINGARDA
+#ifndef REFRISPINGARDA_HPP
+#define REFRISPINGARDA_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 class Refrispingarda : public ArmaAtaque

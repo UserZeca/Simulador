@@ -1,5 +1,5 @@
-#ifndef AVACALHADOR5000
-#define AVACALHADOR5000
+#ifndef AVACALHADOR5000_HPP
+#define AVACALHADOR5000_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 class Avacalhador5000 : public ArmaAtaque

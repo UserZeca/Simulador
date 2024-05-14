@@ -1,5 +1,5 @@
-#ifndef PYRO
-#define PYRO
+#ifndef PYRO_HPP
+#define PYRO_HPP
 #include "../core-simulador-hpp/Personagem.hpp"
 class Pyro : public Personagem
 {

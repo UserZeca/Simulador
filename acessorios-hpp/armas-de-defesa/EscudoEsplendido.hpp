@@ -1,5 +1,5 @@
-#ifndef ESCUDO_ESPLENDIDO
-#define ESCUDO_ESPLENDIDO
+#ifndef ESCUDO_ESPLENDIDO_HPP
+#define ESCUDO_ESPLENDIDO_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 #include "../../core-simulador-hpp/ArmaDefesa.hpp"

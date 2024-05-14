@@ -1,5 +1,5 @@
-#ifndef COLHER
-#define COLHER
+#ifndef COLHER_HPP
+#define COLHER_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 class Colher : public ArmaAtaque

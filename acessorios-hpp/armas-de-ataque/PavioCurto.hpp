@@ -1,5 +1,5 @@
-#ifndef PAVIO_CURTO
-#define PAVIO_CURTO
+#ifndef PAVIO_CURTO_HPP
+#define PAVIO_CURTO_HPP
 
 #include "../../core-simulador-hpp/ArmaAtaque.hpp"
 class PavioCurto : public ArmaAtaque
