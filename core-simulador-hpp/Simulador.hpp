@@ -26,6 +26,7 @@ class Simulador
         Personagem* proximoPersonagem(vector<Personagem*> equipe);
         int criarCombate(Personagem* personagem1, Personagem* personagem2);
         string criarSaida(Personagem* personagem1, Personagem* personagem2, int dano);
+        bool verificarSeExistePersonagemComVida(vector<Personagem*> equipe);
 
 
 };

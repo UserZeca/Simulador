@@ -67,26 +67,43 @@ int Simulador::calcularVidaEquipe(int seletorDeEquipe)
     return soma;
 }
 
+bool Simulador::verificarSeExistePersonagemComVida(vector<Personagem*> equipe) {
+
+    bool haVida = false;
+
+    for (int i = 0; i < equipe.size(); i++) {
+        if (equipe[i]->getVida() > 0) {
+            haVida = true;
+            break;
+        }
+    }
+
+    return haVida;
+}
+
 Personagem* Simulador::proximoPersonagem(vector<Personagem*> equipe)
-{
+{   
+
     int tamanho = equipe.size();
-    if (tamanho == 0)
+    if (tamanho == 0 || !verificarSeExistePersonagemComVida(equipe))
     {
         return nullptr;
     }
 
-    int contador = 0;
-    while (contador < tamanho)
-    {
-        if (equipe[contador]->getVida()>0)
-        {
-            return equipe[contador];
-        }
-        contador++;
+    std::srand(static_cast<unsigned int>(std::time(nullptr)));
 
-    }
+    bool loop = true;
+    int index = 0;
+ 
+    do { 
+        index = std::rand() % tamanho;
 
-    return nullptr;
+        if (equipe[index]->getVida() > 0)
+            loop = false;
+    } while (loop);
+
+    return equipe[index];
+
 }
 
 int Simulador::criarCombate(Personagem* personagem1, Personagem* personagem2)
@@ -112,6 +129,7 @@ string Simulador::criarSaida(Personagem* personagem1, Personagem* personagem2, i
     saida += "\nEquipe 1 " + std::to_string(calcularVidaEquipe(1)) + " x " + 
              std::to_string(calcularVidaEquipe(2)) + " Equipe 2";
     saida += "\n---------------------------------------------------------\n";
+    
     return saida;
 }
 
