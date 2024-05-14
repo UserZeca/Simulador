@@ -8,9 +8,8 @@
 ```
 mkdir bin	
 ```
-- ### Compila os arquivos de acessorios
 
-### 1) Se for a primeira vez utilize o comando abaixo, ele somente irá compilar os arquivos:
+### 1) Se for a primeira vez que está compilando, utilize o comando abaixo, ele somente irá compilar os arquivos:
 
  ```
  g++ -c ./acessorios-cpp/armas-de-ataque/*.cpp ./acessorios-cpp/armas-de-defesa/*.cpp && move *.o ./bin/ 
@@ -21,7 +20,7 @@ mkdir bin
 del /S bin\*.o && g++ -c ./core-simulador-cpp/*.cpp ./personagens-cpp/*.cpp ./acessorios-cpp/armas-de-ataque/*.cpp ./acessorios-cpp/armas-de-defesa/*.cpp && move *.o ./bin/
 ```
 
-- ### Comando que compila o arquivo main com os arquivos de bibliotecas (comp)
+- ### Comando que compila o arquivo principal(main) com os binários gerados pelas libs criadas 
 
 ```
 g++ ./principal/main.cpp ./bin/*.o
