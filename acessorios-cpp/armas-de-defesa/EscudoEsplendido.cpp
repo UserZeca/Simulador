@@ -1,17 +1,17 @@
 #include "../../core-simulador-hpp/ArmaDefesa.hpp"
-#include "../../acessorios-hpp/armas-de-defesa/Escudo.hpp"
+#include "../../acessorios-hpp/armas-de-defesa/EscudoEsplendido.hpp"
 
-Escudo::Escudo(string descricaoArma, int resistencia)
+EscudoEsplendido::EscudoEsplendido(string descricaoArma, int resistencia)
 :ArmaDefesa(descricaoArma, resistencia){
 
 }
 
-string Escudo::getDescricaoArma() 
+string EscudoEsplendido::getDescricaoArma() 
 {
     return this->descricaoArma;
 }
 
-int Escudo::getResistencia() 
+int EscudoEsplendido::getResistencia() 
 {
     return this->resistencia;
 }
